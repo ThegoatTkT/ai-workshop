@@ -1,0 +1,44 @@
+{
+  "name": "AI Sales Workshop",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "waitFor": "onCreateCommand",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Workshop App",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "updateContentCommand": "npm install",
+  "postCreateCommand": "npm run db:migrate && cp env.example .env && npx playwright install chromium",
+  "postAttachCommand": {
+    "welcome": "printf '\\n========================================\\n  Welcome to the AI Sales Workshop!\\n========================================\\n\\n1. Add your OpenAI API key:\\n   Edit .env and add your key\\n\\n2. Install Claude Code:\\n   curl -fsSL https://claude.ai/install.sh | bash\\n\\nThe dev server is starting in another terminal...\\n========================================\\n\\n'",
+    "server": "npm run dev"
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "ms-vscode.vscode-typescript-next",
+        "yzhang.markdown-all-in-one",
+        "ms-playwright.playwright"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["CLAUDE.md", ".agents/rules/*.md"],
+  "default_agent": "plan",
+  "share": "disabled",
+  "watcher": {
+    "ignore": [
+      "node_modules/**",
+      "dist/**",
+      "build/**",
+      ".git/**",
+      ".ruff_cache/**",
+      "htmlcov/**",
+      "__pycache__/**",
+      "*.pyc"
+    ]
+  },
+  "permission": {
+    "doom_loop": "ask",
+    "external_directory": "ask",
+    "bash": {
+      "pytest *": "allow",
+      "make *": "allow",
+      "pnpm *": "allow",
+      "uv *": "allow",
+      "ruff *": "allow",
+      "ty *": "allow",
+
+      "curl *": "ask",
+      "wget *": "ask",
+
+      "git status": "allow",
+      "git diff *": "allow",
+      "git log *": "allow",
+      "git show *": "allow",
+      "git branch": "allow",
+      "git commit *": "ask",
+      "git push *": "ask",
+      "git stash *": "ask",
+      "git reset *": "ask",
+      "git checkout *": "ask",
+      "git rebase *": "ask",
+      "git merge *": "ask",
+      "git cherry-pick *": "ask",
+      "git revert *": "ask",
+      "git tag *": "ask",
+      "git branch -d *": "ask",
+      "git branch -D *": "ask"
+    }
+  }
+}
