@@ -221,6 +221,30 @@ These commands help participants build faster:
 | `/check-app`          | Runs a health check (build, env, routes)              |
 | `/deploy-check`       | Pre-deployment verification checklist                 |
 
+## AI Subagents
+
+Specialized AI assistants that help with specific tasks. Claude automatically uses these when appropriate, or you can request them explicitly.
+
+| Agent              | What it does                                     | When to use                                                      |
+| ------------------ | ------------------------------------------------ | ---------------------------------------------------------------- |
+| `code-explainer`   | Explains code in plain, jargon-free language     | "What does this file do?"                                        |
+| `test-runner`      | Runs tests and explains results simply           | "Test my feature" or "Did my changes break anything?"            |
+| `prompt-improver`  | Helps write better AI prompts                    | "My AI responses feel generic"                                   |
+| `feature-reviewer` | Reviews your work and suggests improvements      | "Review what I built"                                            |
+| `example-guide`    | Helps learn from and copy patterns in `/example` | "How does the audio demo work?" or "Copy that pattern to my app" |
+
+**Example usage:**
+
+```
+Use the code-explainer agent to explain the leadgen processor
+
+Have the test-runner check if my changes work
+
+Ask the prompt-improver to help me write a better system prompt for my chat API
+```
+
+Subagents run in their own context, so they won't clutter your main conversation with verbose output (like test results or code exploration).
+
 ## Patterns to Follow
 
 ### Pages
