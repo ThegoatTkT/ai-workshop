@@ -1,9 +1,6 @@
 {
   "name": "AI Sales Workshop",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
-  "features": {
-    "ghcr.io/devcontainers-extra/features/sqlite:1": {}
-  },
   "hostRequirements": {
     "cpus": 4
   },
