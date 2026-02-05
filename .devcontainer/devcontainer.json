@@ -1,7 +1,8 @@
 {
   "name": "AI Sales Workshop",
-  "build": {
-    "dockerfile": "Dockerfile"
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/sqlite:1": {}
   },
   "hostRequirements": {
     "cpus": 4
@@ -15,7 +16,7 @@
     }
   },
   "updateContentCommand": "npm install",
-  "postCreateCommand": "npm run db:migrate && cp env.example .env && npx playwright install chromium",
+  "postCreateCommand": "npm run db:migrate && cp env.example .env && npx playwright install --with-deps chromium",
   "postAttachCommand": {
     "welcome": "printf '\\n========================================\\n  Welcome to the AI Sales Workshop!\\n========================================\\n\\n1. Add your OpenAI API key:\\n   Edit .env and add your key\\n\\n2. Install Claude Code:\\n   curl -fsSL https://claude.ai/install.sh | bash\\n\\nThe dev server is starting in another terminal...\\n========================================\\n\\n'",
     "server": "npm run dev"
